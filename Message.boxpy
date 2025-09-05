@@ -1,0 +1,15 @@
+import tkinter as tk
+from tkinter import messagebox
+top = tk.Tk()
+top.withdraw()
+#top.geometry("100x100")
+# var=tk.StringVar()message box are display the message on the screen
+tk.messagebox.showerror("Warning","warning")
+tk.messagebox.showinfo("information","warning")
+tk.messagebox.askyesno("information","warning")
+tk.messagebox.askokcancel("information","warning")
+tk.messagebox.askretrycancel("information","warning")
+tk.messagebox.askyesnocancel("information","warning")
+tk.messagebox.askquestion("information","warning")
+
+top.mainloop()
